@@ -1,0 +1,73 @@
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: lightgray;
+	width: 100%;
+	height: 50px;
+}
+
+.topnav {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+p {
+	margin-left: 10px;
+}
+a {
+	color: purple;
+}
+
+.blue {
+	color: blue;
+}
+
+section {
+	padding-top: 50px;
+	padding-left: 75px;
+}
+
+form {
+	padding-bottom: 25px;
+}
+
+label {
+	display: block;
+}
+
+input[type=text] {
+	width: 50%;
+	border-radius: 5px;
+}
+
+.button {
+	width: 20px;
+	height: auto;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+}
+
+.pages {
+	display: inline-block;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	margin-left: 75px;
+}
+
+.pages-display {
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+}
+
+.pages-button, .pages-display {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+ul.block {
+	display: block;
+	list-style: none;
+}
